@@ -14,7 +14,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.teal,
       appBar: AppBar(
-        title: Text("THIS'S MY FIRS App .."),
+        title: Text("THIS'S MY FIRST App .."),
         leading: Icon(
           Icons.menu,
         ),
