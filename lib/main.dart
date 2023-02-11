@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blueGrey,
+      backgroundColor: Colors.teal,
       appBar: AppBar(
         title: Text("THIS'S MY FIRS App .."),
         leading: Icon(
