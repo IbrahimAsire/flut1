@@ -19,8 +19,10 @@ class HomeScreen extends StatelessWidget {
           Icons.menu,
         ),
       ),
-      body: Center(
-        child: Text("YA HALA ..."),
+      body: SafeArea(
+        child: Center(
+          child: Text("YA HALA ..."),
+        ),
       ),
     );
   }
