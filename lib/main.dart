@@ -21,7 +21,13 @@ class HomeScreen extends StatelessWidget {
       ),
       body: SafeArea(
         child: Center(
-          child: Text("YA HALA ..."),
+          child: Text(
+            "YA HALA ...",
+            style: TextStyle(
+              fontSize: 38,
+              fontWeight: FontWeight.w900,
+            ),
+          ),
         ),
       ),
     );
