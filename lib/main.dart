@@ -6,6 +6,7 @@ void main() {
   ));
 }
 
+// this is to use Hot reload feature
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
 
