@@ -25,11 +25,12 @@ class HomeScreen extends StatelessWidget {
           child: Container(
             height: 180,
             width: 180,
+            alignment: Alignment.center,
             color: Colors.amberAccent,
             child: Text(
               "YA HALA ...",
               style: TextStyle(
-                fontSize: 38,
+                fontSize: 24,
                 fontWeight: FontWeight.w900,
                 fontStyle: FontStyle.italic,
                 color: Colors.brown.withOpacity(0.6)
