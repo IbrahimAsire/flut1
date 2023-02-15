@@ -26,7 +26,7 @@ class HomeScreen extends StatelessWidget {
             height: 180,
             width: 180,
             alignment: Alignment.center,
-            color: Colors.amberAccent,
+            color: Colors.amberAccent.withOpacity(.7),
             child: Text(
               "YA HALA ...",
               style: TextStyle(
