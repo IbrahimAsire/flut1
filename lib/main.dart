@@ -28,7 +28,7 @@ class HomeScreen extends StatelessWidget {
               SizedBox(height: 8),
               Text(
                 "sgasghfg fgf ggdfg fgfghsgsghjg kjhg ljh;usfh sjfjgldsfj lfggs  gflg ggffg lgfgfg gfglf gfggl llghguhg, hjg hh hjhgghg fgfgsfgfgfgfgf hgggmhggyeegvbbc sdvefvjfgxbcv",
-                style: TextStyle(fontSize: 17, fontWeight: FontWeight.w300, color: Colors.grey[800]),
+                style: TextStyle(fontSize: 17, fontWeight: FontWeight.w300, color: Colors.grey[900]),
               ),
               Row(),
             ],
