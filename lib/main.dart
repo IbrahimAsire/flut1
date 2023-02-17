@@ -16,6 +16,7 @@ class HomeScreen extends StatelessWidget {
       backgroundColor: Colors.teal,
       appBar: AppBar(
         title: Text("THIS'S MY FIRST App .."),
+        backgroundColor: Colors.cyan,
         leading: Icon(
           Icons.menu,
         ),
