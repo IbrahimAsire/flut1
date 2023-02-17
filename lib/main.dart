@@ -14,30 +14,21 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.teal,
-      appBar: AppBar(
-        title: Text("THIS'S MY FIRST App .."),
-        backgroundColor: Colors.cyan,
-        leading: Icon(
-          Icons.menu,
-        ),
-      ),
       body: SafeArea(
-        child: Center(
-          child: Container(
-            height: 180,
-            width: 180,
-            alignment: Alignment.center,
-            color: Colors.amberAccent.withOpacity(.7),
-            child: Text(
-              "YA HALA ...",
-              style: TextStyle(
-                fontSize: 24,
-                fontWeight: FontWeight.w900,
-                fontStyle: FontStyle.italic,
-                color: Colors.brown.withOpacity(0.6)
-              ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(),
+            Text(
+              "Start",
+              style: TextStyle(fontSize: 23, fontWeight: FontWeight.w500),
             ),
-          ),
+            Text(
+              "sgasghfg fgf ggdfg fgfghsgsghjg kjhg ljh;usfh sjfjgldsfj lfggs  gflg ggffg lgfgfg gfglf gfggl llghguhg, hjg hh hjhgghg fgfgsfgfgfgfgf hgggmhggyeegvbbc sdvefvjfgxbcv",
+              style: TextStyle(fontSize: 17, fontWeight: FontWeight.w300, color: Colors.grey[800]),
+            ),
+            Row(),
+          ],
         ),
       ),
     );
