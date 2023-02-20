@@ -38,7 +38,16 @@ class HomeScreen extends StatelessWidget {
                     Text(
                       "Dr. Noura",
                       style: TextStyle(fontSize: 34),
-                    )
+                    ),
+                    Text(
+                      "Heart Specialist",
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.w400,
+                        color: Colors.grey[700],
+                      ),
+                    ),
+                    Row(),
                   ],
                 )
               ],),
