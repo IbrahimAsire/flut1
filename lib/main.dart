@@ -20,7 +20,16 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Row(),
+              Row(children: [
+                Container(
+                  height: 177,
+                  width: 127,
+                  child: Image(
+                    image: AssetImage("Assets/images/doctor_image.png"),
+                    fit: BoxFit.contain,
+                  ),
+                )
+              ],),
               Text(
                 "Start",
                 style: TextStyle(fontSize: 23, fontWeight: FontWeight.w500),
