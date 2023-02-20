@@ -32,6 +32,14 @@ class HomeScreen extends StatelessWidget {
                     color: Colors.orangeAccent,
                     borderRadius: BorderRadius.circular(16),
                   ),
+                ),
+                Column(
+                  children: [
+                    Text(
+                      "Dr. Noura",
+                      style: TextStyle(fontSize: 34),
+                    )
+                  ],
                 )
               ],),
               Text(
