@@ -28,6 +28,10 @@ class HomeScreen extends StatelessWidget {
                     image: AssetImage("Assets/images/doctor_image.png"),
                     fit: BoxFit.contain,
                   ),
+                  decoration: BoxDecoration(
+                    color: Colors.orangeAccent,
+                    borderRadius: BorderRadius.circular(16),
+                  ),
                 )
               ],),
               Text(
