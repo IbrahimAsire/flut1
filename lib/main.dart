@@ -33,7 +33,11 @@ class HomeScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(16),
                   ),
                 ),
+                SizedBox(
+                  width: 34,
+                ),
                 Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
                       "Dr. Noura",
