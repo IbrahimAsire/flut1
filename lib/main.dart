@@ -51,7 +51,23 @@ class HomeScreen extends StatelessWidget {
                         color: Colors.grey[700],
                       ),
                     ),
-                    Row(),
+                    Row(
+                      children: [
+                        Container(
+                          child: Icon(
+                            Icons.mail,
+                            color: Colors.orangeAccent,
+                            size: 31,
+                          ),
+                          height: 47,
+                          width: 47,
+                          decoration: BoxDecoration(
+                            color: Colors.deepOrange[50],
+                            borderRadius: BorderRadius.circular(16),
+                          ),
+                        )
+                      ],
+                    ),
                   ],
                 )
               ],),
