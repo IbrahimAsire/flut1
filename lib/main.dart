@@ -65,6 +65,19 @@ class HomeScreen extends StatelessWidget {
                             color: Colors.deepOrange[50],
                             borderRadius: BorderRadius.circular(16),
                           ),
+                        ),
+                        Container(
+                          child: Icon(
+                            Icons.phone,
+                            color: Colors.orangeAccent,
+                            size: 31,
+                          ),
+                          height: 47,
+                          width: 46,
+                          decoration: BoxDecoration(
+                            color: Colors.deepOrange[50],
+                            borderRadius: BorderRadius.circular(16),
+                          ),
                         )
                       ],
                     ),
