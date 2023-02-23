@@ -33,9 +33,7 @@ class HomeScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(16),
                   ),
                 ),
-                SizedBox(
-                  width: 34,
-                ),
+                SizedBox(width: 34),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -51,6 +49,7 @@ class HomeScreen extends StatelessWidget {
                         color: Colors.grey[700],
                       ),
                     ),
+                    SizedBox(height: 16),
                     Row(
                       children: [
                         Container(
@@ -66,6 +65,7 @@ class HomeScreen extends StatelessWidget {
                             borderRadius: BorderRadius.circular(16),
                           ),
                         ),
+                        SizedBox(width: 8),
                         Container(
                           child: Icon(
                             Icons.phone,
@@ -79,6 +79,7 @@ class HomeScreen extends StatelessWidget {
                             borderRadius: BorderRadius.circular(16),
                           ),
                         ),
+                        SizedBox(width: 8),
                         Container(
                           child: Icon(
                             Icons.photo,
