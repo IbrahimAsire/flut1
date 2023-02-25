@@ -82,7 +82,7 @@ class HomeScreen extends StatelessWidget {
                         SizedBox(width: 8),
                         Container(
                           child: Icon(
-                            Icons.photo,
+                            Icons.video_call,
                             color: Colors.orangeAccent,
                             size: 31,
                           ),
