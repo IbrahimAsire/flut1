@@ -52,34 +52,12 @@ class HomeScreen extends StatelessWidget {
                     SizedBox(height: 16),
                     Row(
                       children: [
-                        Container(
-                          child: Icon(
-                            Icons.mail,
-                            color: Colors.orangeAccent,
-                            size: 31,
-                          ),
-                          height: 47,
-                          width: 47,
-                          decoration: BoxDecoration(
-                            color: Colors.deepOrange[50],
-                            borderRadius: BorderRadius.circular(16),
-                          ),
-                        ),
+                        //here I use a away short to don't repeat and the class is under that I used to shortly
+                        CustomIconStyle(icon: Icons.mail,),
                         SizedBox(width: 8),
-                        Container(
-                          child: Icon(
-                            Icons.phone,
-                            color: Colors.orangeAccent,
-                            size: 31,
-                          ),
-                          height: 47,
-                          width: 47,
-                          decoration: BoxDecoration(
-                            color: Colors.deepOrange[50],
-                            borderRadius: BorderRadius.circular(16),
-                          ),
-                        ),
+                        CustomIconStyle(icon: Icons.phone,),
                         SizedBox(width: 8),
+                        // here I use the away stander to keep it in mind
                         Container(
                           child: Icon(
                             Icons.video_call,
@@ -111,6 +89,31 @@ class HomeScreen extends StatelessWidget {
             ],
           ),
         ),
+      ),
+    );
+  }
+}
+
+class CustomIconStyle extends StatelessWidget {
+  const CustomIconStyle({
+    super.key, required this.icon,
+  });
+
+  final IconData icon;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: Icon(
+        icon,
+        color: Colors.orangeAccent,
+        size: 31,
+      ),
+      height: 47,
+      width: 47,
+      decoration: BoxDecoration(
+        color: Colors.deepOrange[50],
+        borderRadius: BorderRadius.circular(16),
       ),
     );
   }
