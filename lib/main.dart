@@ -20,62 +20,70 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Row(children: [
-                Container(
-                  height: 177,
-                  width: 127,
-                  child: Image(
-                    image: AssetImage("Assets/images/doctor_image.png"),
-                    fit: BoxFit.contain,
-                  ),
-                  decoration: BoxDecoration(
-                    color: Colors.orangeAccent,
-                    borderRadius: BorderRadius.circular(16),
-                  ),
-                ),
-                SizedBox(width: 34),
-                Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      "Dr. Noura",
-                      style: TextStyle(fontSize: 34),
+              Row(
+                children: [
+                  Container(
+                    height: 177,
+                    width: 127,
+                    child: Image(
+                      image: AssetImage("Assets/images/doctor_image.png"),
+                      fit: BoxFit.contain,
                     ),
-                    Text(
-                      "Heart Specialist",
-                      style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.w400,
-                        color: Colors.grey[700],
+                    decoration: BoxDecoration(
+                      color: Colors.orangeAccent,
+                      borderRadius: BorderRadius.circular(16),
+                    ),
+                  ),
+                  SizedBox(width: 34),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        "Dr. Noura",
+                        style: TextStyle(fontSize: 34),
                       ),
-                    ),
-                    SizedBox(height: 16),
-                    Row(
-                      children: [
-                        //here I use a away short to don't repeat and the class is under that I used to shortly
-                        CustomIconStyle(icon: Icons.mail,),
-                        SizedBox(width: 8),
-                        CustomIconStyle(icon: Icons.phone,),
-                        SizedBox(width: 8),
-                        // here I use the away stander to keep it in mind
-                        Container(
-                          child: Icon(
-                            Icons.video_call,
-                            color: Colors.orangeAccent,
-                            size: 31,
+                      Text(
+                        "Heart Specialist",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w400,
+                          color: Colors.grey[700],
+                        ),
+                      ),
+                      SizedBox(height: 16),
+                      Row(
+                        children: [
+                          //here I use a away short to don't repeat and the class is under that I used to shortly
+                          CustomIconStyle(
+                            icon: Icons.mail,
                           ),
-                          height: 47,
-                          width: 47,
-                          decoration: BoxDecoration(
-                            color: Colors.deepOrange[50],
-                            borderRadius: BorderRadius.circular(16)
+                          SizedBox(width: 8),
+                          CustomIconStyle(
+                            icon: Icons.phone,
                           ),
-                        )
-                      ],
-                    ),
-                  ],
-                )
-              ],),
+                          SizedBox(width: 8),
+                          // here I use the away stander to keep it in mind
+                          Container(
+                            child: Icon(
+                              Icons.video_call,
+                              color: Colors.orangeAccent,
+                              size: 31,
+                            ),
+                            height: 47,
+                            width: 47,
+                            decoration: BoxDecoration(
+                                color: Colors.deepOrange[50],
+                                borderRadius: BorderRadius.circular(16)),
+                          )
+                        ],
+                      ),
+                    ],
+                  )
+                ],
+              ),
+              SizedBox(
+                height: 31,
+              ),
               Text(
                 "Start",
                 style: TextStyle(fontSize: 23, fontWeight: FontWeight.w500),
@@ -83,9 +91,24 @@ class HomeScreen extends StatelessWidget {
               SizedBox(height: 8),
               Text(
                 "sgasghfg fgf ggdfg fgfghsgsghjg kjhg ljh;usfh sjfjgldsfj lfggs  gflg ggffg lgfgfg gfglf gfggl llghguhg, hjg hh hjhgghg fgfgsfgfgfgfgf hgggmhggyeegvbbc sdvefvjfgxbcv",
-                style: TextStyle(fontSize: 17, fontWeight: FontWeight.w300, color: Colors.grey[900]),
+                style: TextStyle(
+                    fontSize: 17,
+                    fontWeight: FontWeight.w300,
+                    color: Colors.grey[900]),
               ),
-              Row(),
+              SizedBox(height: 66,),
+              Row(
+                children: [
+                  Column(),
+                  ClipRRect(
+                    borderRadius: BorderRadius.circular(17),
+                    child: Image(image: AssetImage("Assets/images/map_image.JPG"),
+                    height: 200,
+                    width: 150,
+                    fit: BoxFit.cover,),
+                  )
+                ],
+              ),
             ],
           ),
         ),
@@ -96,7 +119,8 @@ class HomeScreen extends StatelessWidget {
 
 class CustomIconStyle extends StatelessWidget {
   const CustomIconStyle({
-    super.key, required this.icon,
+    super.key,
+    required this.icon,
   });
 
   final IconData icon;
