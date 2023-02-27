@@ -99,7 +99,18 @@ class HomeScreen extends StatelessWidget {
               SizedBox(height: 66,),
               Row(
                 children: [
-                  Column(),
+                  Column(
+                    children: [
+                      Row(
+                        children: [
+                          Icon(
+                            Icons.location_on_outlined,
+                            color: Colors.grey[700],
+                          )
+                        ],
+                      )
+                    ],
+                  ),
                   ClipRRect(
                     borderRadius: BorderRadius.circular(17),
                     child: Image(image: AssetImage("Assets/images/map_image.JPG"),
