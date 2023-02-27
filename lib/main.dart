@@ -98,6 +98,7 @@ class HomeScreen extends StatelessWidget {
               ),
               SizedBox(height: 66,),
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Column(
                     children: [
@@ -106,6 +107,20 @@ class HomeScreen extends StatelessWidget {
                           Icon(
                             Icons.location_on_outlined,
                             color: Colors.grey[700],
+                          ),
+                          SizedBox(width: 4,),
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Address",
+                                style: TextStyle(fontSize: 24, ),
+                              ),
+                              Text(
+                                "Riyadh / Heteen / House 17",
+                                style: TextStyle(color: Colors.grey[700]),
+                              )
+                            ],
                           )
                         ],
                       )
