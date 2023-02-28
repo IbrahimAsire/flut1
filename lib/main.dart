@@ -117,7 +117,7 @@ class HomeScreen extends StatelessWidget {
                                 style: TextStyle(fontSize: 24, ),
                               ),
                               Text(
-                                "Riyadh / Heteen / House 17",
+                                "Riyadh / Heteen / House \n 17",
                                 style: TextStyle(color: Colors.grey[700]),
                               )
                             ],
@@ -140,7 +140,7 @@ class HomeScreen extends StatelessWidget {
                                 style: TextStyle(fontSize: 24, ),
                               ),
                               Text(
-                                "Riyadh / Heteen / House 17",
+                                "Riyadh / Heteen / House \n 17",
                                 style: TextStyle(color: Colors.grey[700]),
                               )
                             ],
