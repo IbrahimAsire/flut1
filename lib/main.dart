@@ -111,6 +111,7 @@ class HomeScreen extends StatelessWidget {
                           SizedBox(width: 4,),
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
+                            mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               Text(
                                 "Address",
@@ -140,7 +141,7 @@ class HomeScreen extends StatelessWidget {
                                 style: TextStyle(fontSize: 24, ),
                               ),
                               Text(
-                                "Riyadh / Heteen / House \n 17",
+                                "Riyadh / Heteen / House hfghfghgfhfghgfhghh\n 17",
                                 style: TextStyle(color: Colors.grey[700]),
                               )
                             ],
