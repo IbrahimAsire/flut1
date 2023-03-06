@@ -111,7 +111,7 @@ class HomeScreen extends StatelessWidget {
                           SizedBox(width: 4,),
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceAround,
+                            mainAxisAlignment: MainAxisAlignment.spaceAround, // review this one please
                             children: [
                               Text(
                                 "Address",
